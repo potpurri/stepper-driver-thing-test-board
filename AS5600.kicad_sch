@@ -1,0 +1,41 @@
+(kicad_sch
+	(version 20260306)
+	(generator "eeschema")
+	(generator_version "10.0")
+	(uuid "a195bd07-172b-45f4-a102-495bbd3b5b03")
+	(paper "A4")
+	(lib_symbols)
+	(hierarchical_label "SDA_AS5600"
+		(shape bidirectional)
+		(at 68.58 83.82 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "2764f748-a746-4be3-936e-64fdfe52c48c")
+	)
+	(hierarchical_label "SCL_AS5600"
+		(shape bidirectional)
+		(at 68.58 86.36 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "5e955e81-4079-461e-b407-08dd105371c5")
+	)
+	(hierarchical_label "3v3"
+		(shape input)
+		(at 67.31 81.28 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "dc47a9dc-b63c-4158-b10e-6862c7e1a537")
+	)
+)

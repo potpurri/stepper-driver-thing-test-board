@@ -1,0 +1,2475 @@
+(kicad_sch
+	(version 20260306)
+	(generator "eeschema")
+	(generator_version "10.0")
+	(uuid "600f91f8-406e-472f-a628-adbd851a7d8a")
+	(paper "A4")
+	(lib_symbols
+		(symbol "Connector_Generic:Conn_01x02"
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "J"
+				(at 0 2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Conn_01x02"
+				(at 0 -5.08 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "connector"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "Connector*:*_1x??_*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "Conn_01x02_1_1"
+				(rectangle
+					(start -1.27 1.27)
+					(end 1.27 -3.81)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(rectangle
+					(start -1.27 0.127)
+					(end 0 -0.127)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 -2.413)
+					(end 0 -2.667)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at -5.08 0 0)
+					(length 3.81)
+					(name "Pin_1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -2.54 0)
+					(length 3.81)
+					(name "Pin_2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Connector_Generic:Conn_01x04"
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "J"
+				(at 0 5.08 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Conn_01x04"
+				(at 0 -7.62 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "connector"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "Connector*:*_1x??_*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "Conn_01x04_1_1"
+				(rectangle
+					(start -1.27 3.81)
+					(end 1.27 -6.35)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(rectangle
+					(start -1.27 2.667)
+					(end 0 2.413)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 0.127)
+					(end 0 -0.127)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 -2.413)
+					(end 0 -2.667)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 -4.953)
+					(end 0 -5.207)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at -5.08 2.54 0)
+					(length 3.81)
+					(name "Pin_1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 0 0)
+					(length 3.81)
+					(name "Pin_2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -2.54 0)
+					(length 3.81)
+					(name "Pin_3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -5.08 0)
+					(length 3.81)
+					(name "Pin_4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Mechanical:MountingHole"
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "H"
+				(at 0 5.08 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "MountingHole"
+				(at 0 3.175 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Mounting Hole without connection"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "mounting hole"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "MountingHole*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "MountingHole_0_1"
+				(circle
+					(center 0 0)
+					(radius 1.27)
+					(stroke
+						(width 1.27)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+	)
+	(junction
+		(at 111.76 30.48)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "19fa3ea5-d560-4a5d-9702-ebb8e5301dd6")
+	)
+	(junction
+		(at 99.06 30.48)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "35795e7f-1caa-4c41-8db0-822d707b4f88")
+	)
+	(junction
+		(at 106.68 30.48)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "38c5e07a-7ffc-4df3-8ffc-9702f93949c4")
+	)
+	(junction
+		(at 111.76 120.65)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "3da0428d-19db-4c11-b7b7-c4c4144510a4")
+	)
+	(junction
+		(at 118.11 25.4)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "461e9dcf-b543-48fe-b9d8-1a65e4dde3be")
+	)
+	(junction
+		(at 154.94 92.71)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "56bc18f6-5959-4efc-bb15-b1b74fd7f19c")
+	)
+	(junction
+		(at 140.97 46.99)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "94ed904e-9f51-4c09-aaaf-84baa72c8380")
+	)
+	(junction
+		(at 134.62 53.34)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "acfc9b5d-e86b-4a19-acf5-a6830d114878")
+	)
+	(junction
+		(at 154.94 105.41)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e430d0b5-c933-4ee3-803c-ec06cd7e3aaf")
+	)
+	(junction
+		(at 114.3 101.6)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ef2981d3-fba4-4ae3-bbb6-faad754a35b3")
+	)
+	(wire
+		(pts
+			(xy 111.76 30.48) (xy 124.46 30.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "001ae35e-8b95-4a0c-b127-17eb38823b37")
+	)
+	(wire
+		(pts
+			(xy 90.17 60.96) (xy 106.68 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "04fe0c30-3046-457e-a3b6-c7d26d5b45a9")
+	)
+	(wire
+		(pts
+			(xy 90.17 139.7) (xy 118.11 139.7)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "07cbfe3b-2034-4174-9083-b84be34cfe6d")
+	)
+	(wire
+		(pts
+			(xy 182.88 135.89) (xy 182.88 138.43)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "080c36d3-bf51-4ec3-865c-7239cdb5fe76")
+	)
+	(wire
+		(pts
+			(xy 111.76 53.34) (xy 111.76 30.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0b1c6b59-e1ac-4cae-bd5a-dbd0409f35c2")
+	)
+	(wire
+		(pts
+			(xy 90.17 147.32) (xy 118.11 147.32)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0d86ced9-2c34-4b92-b1b6-5c5e6b392856")
+	)
+	(wire
+		(pts
+			(xy 118.11 46.99) (xy 118.11 25.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0df0c056-e9d4-4720-828a-32af171cd470")
+	)
+	(wire
+		(pts
+			(xy 90.17 153.67) (xy 118.11 153.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0ef3f55f-1e55-4cf7-be10-1b98819f6492")
+	)
+	(wire
+		(pts
+			(xy 161.29 46.99) (xy 140.97 46.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "11f29527-210c-4931-a0dd-9987b7d67afa")
+	)
+	(wire
+		(pts
+			(xy 90.17 143.51) (xy 118.11 143.51)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "120a0c0f-f525-45b4-bd78-c72032bd5136")
+	)
+	(wire
+		(pts
+			(xy 101.6 49.53) (xy 77.47 49.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "153676fe-176a-448b-a4a7-52c96fa39a93")
+	)
+	(wire
+		(pts
+			(xy 93.98 25.4) (xy 118.11 25.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "18079a3d-b54f-40d4-8c8b-ccad4391866b")
+	)
+	(wire
+		(pts
+			(xy 111.76 120.65) (xy 118.11 120.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1b65f809-932b-4b4d-8095-7380391def69")
+	)
+	(wire
+		(pts
+			(xy 154.94 92.71) (xy 154.94 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "23022374-80c0-4063-91dd-5620c0eebff4")
+	)
+	(wire
+		(pts
+			(xy 90.17 173.99) (xy 118.11 173.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2508459e-490c-45fb-9af0-8d23a77c25ea")
+	)
+	(wire
+		(pts
+			(xy 144.78 92.71) (xy 154.94 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "275866a3-cf8c-46b8-8639-5b5f0541dce2")
+	)
+	(wire
+		(pts
+			(xy 185.42 135.89) (xy 182.88 135.89)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "305888ca-8354-4f63-b491-715cdc1982ff")
+	)
+	(wire
+		(pts
+			(xy 90.17 92.71) (xy 118.11 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3a65b3fc-fd85-4b07-ad8a-8d4a55562e95")
+	)
+	(wire
+		(pts
+			(xy 172.72 170.18) (xy 172.72 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3f90f32e-5645-466d-9655-736bc1d9f3e1")
+	)
+	(wire
+		(pts
+			(xy 73.66 46.99) (xy 73.66 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "46e6bae4-1a66-4e82-a919-ce2c978a7616")
+	)
+	(wire
+		(pts
+			(xy 134.62 58.42) (xy 134.62 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4964e7cd-123e-4b4a-aa7e-39df693185f8")
+	)
+	(wire
+		(pts
+			(xy 154.94 53.34) (xy 154.94 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4d2c76b0-e771-403a-a369-df577c86f278")
+	)
+	(wire
+		(pts
+			(xy 77.47 49.53) (xy 77.47 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "54abf2bd-8178-4fb3-87ca-5a0eeae455ae")
+	)
+	(wire
+		(pts
+			(xy 167.64 125.73) (xy 182.88 125.73)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5b2dc44d-5b64-4c4a-9c07-6327f8c845de")
+	)
+	(wire
+		(pts
+			(xy 109.22 101.6) (xy 114.3 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5cf09b15-9d61-4b05-b09b-4b03efc38b52")
+	)
+	(wire
+		(pts
+			(xy 161.29 113.03) (xy 161.29 46.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5e22c7df-78b0-4cc6-93b1-fa74ddb13c79")
+	)
+	(wire
+		(pts
+			(xy 167.64 170.18) (xy 172.72 170.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5ee359e8-daee-4686-af7b-4706ae5fd014")
+	)
+	(wire
+		(pts
+			(xy 50.8 30.48) (xy 58.42 30.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "634e9adb-848a-49e5-8ba7-8a49148a594b")
+	)
+	(wire
+		(pts
+			(xy 50.8 25.4) (xy 66.04 25.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "64650d1e-fbf4-49ff-9019-924e94fb9939")
+	)
+	(wire
+		(pts
+			(xy 97.79 46.99) (xy 73.66 46.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6d997b70-54c1-436c-8255-68f72201dab4")
+	)
+	(wire
+		(pts
+			(xy 106.68 30.48) (xy 106.68 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7591647e-b2be-4df5-9a71-9d505c47a0a8")
+	)
+	(wire
+		(pts
+			(xy 93.98 39.37) (xy 97.79 39.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7a76762b-de1c-46c4-afbe-d9e390c6ad8f")
+	)
+	(wire
+		(pts
+			(xy 90.17 128.27) (xy 118.11 128.27)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "807885a4-a082-46ca-afef-53483ea2f5f3")
+	)
+	(wire
+		(pts
+			(xy 111.76 104.14) (xy 111.76 120.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8109250a-eaf2-4db4-8019-dc53cf7bd514")
+	)
+	(wire
+		(pts
+			(xy 140.97 58.42) (xy 140.97 46.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "841f609c-e902-4f8e-a7cd-688628d45e4a")
+	)
+	(wire
+		(pts
+			(xy 58.42 16.51) (xy 58.42 30.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8d02fcb7-4eb3-455a-a980-76badb880eca")
+	)
+	(wire
+		(pts
+			(xy 177.8 133.35) (xy 185.42 133.35)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "971ce155-cd4a-4970-ba4e-a5632f5fe4eb")
+	)
+	(wire
+		(pts
+			(xy 154.94 105.41) (xy 154.94 113.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "987ed1ac-d6fd-40ab-af2b-cd8f2938e0f9")
+	)
+	(wire
+		(pts
+			(xy 93.98 30.48) (xy 99.06 30.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "98ce460a-7acb-4a5a-8ec4-e1ef3c709d71")
+	)
+	(wire
+		(pts
+			(xy 114.3 116.84) (xy 118.11 116.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "994e7e18-9262-4a1a-8d5a-7da31b2769dd")
+	)
+	(wire
+		(pts
+			(xy 90.17 157.48) (xy 118.11 157.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9a89c52a-c8f2-4572-8bf2-a32e4d0380cb")
+	)
+	(wire
+		(pts
+			(xy 90.17 74.93) (xy 118.11 74.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9e092ba2-852c-4595-9775-1460187ef39c")
+	)
+	(wire
+		(pts
+			(xy 97.79 39.37) (xy 97.79 46.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9f5bc222-6294-4359-bcc2-2f6ab8ed5b9a")
+	)
+	(wire
+		(pts
+			(xy 172.72 105.41) (xy 154.94 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9f7320e5-4d4f-492d-9cb2-ffb384d8a643")
+	)
+	(wire
+		(pts
+			(xy 111.76 53.34) (xy 134.62 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a005e1e8-2745-4abe-af00-27a43b993e3d")
+	)
+	(wire
+		(pts
+			(xy 167.64 134.62) (xy 177.8 134.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a50bf6f9-606a-4e99-a3ba-23afb1eaf185")
+	)
+	(wire
+		(pts
+			(xy 118.11 46.99) (xy 140.97 46.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b08975d5-79f6-4769-ba0d-74c847932018")
+	)
+	(wire
+		(pts
+			(xy 106.68 30.48) (xy 111.76 30.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b581a3c4-919f-4524-90be-e03b0cff2d5c")
+	)
+	(wire
+		(pts
+			(xy 167.64 138.43) (xy 182.88 138.43)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b6ec01d7-2f5f-40a6-aceb-be5bf6b83e60")
+	)
+	(wire
+		(pts
+			(xy 99.06 16.51) (xy 99.06 30.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ba0f938e-82e5-4f29-bdf4-93a67c5fb479")
+	)
+	(wire
+		(pts
+			(xy 114.3 101.6) (xy 114.3 116.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bd8332a7-f245-4eff-9d4f-418a6d314d07")
+	)
+	(wire
+		(pts
+			(xy 177.8 134.62) (xy 177.8 133.35)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c97b972d-98be-4f3a-ac8f-21b1acf1aada")
+	)
+	(wire
+		(pts
+			(xy 185.42 128.27) (xy 182.88 128.27)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c9910d12-af03-4836-9684-116861a05cf8")
+	)
+	(wire
+		(pts
+			(xy 90.17 180.34) (xy 118.11 180.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cc88cf38-c486-40ad-9d52-4e0c84212146")
+	)
+	(wire
+		(pts
+			(xy 90.17 120.65) (xy 111.76 120.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ceb1229a-5477-497f-ba86-849862db1a17")
+	)
+	(wire
+		(pts
+			(xy 182.88 128.27) (xy 182.88 125.73)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d0da4d1e-f9e8-4320-a06c-8de4e29fdebc")
+	)
+	(wire
+		(pts
+			(xy 154.94 53.34) (xy 134.62 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d4b77507-41f7-4d68-8f03-b89abc7d7e96")
+	)
+	(wire
+		(pts
+			(xy 101.6 36.83) (xy 101.6 49.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d6d2dd99-e2f3-443d-a069-3bf5b4b5dddd")
+	)
+	(wire
+		(pts
+			(xy 167.64 129.54) (xy 177.8 129.54)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e786ba2c-10fc-4e01-a3fc-97876c7d29d8")
+	)
+	(wire
+		(pts
+			(xy 185.42 130.81) (xy 177.8 130.81)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e95cfee2-d0e9-4f28-b7d4-87358b82f5a0")
+	)
+	(wire
+		(pts
+			(xy 58.42 16.51) (xy 99.06 16.51)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e9e8afee-5560-43ac-93be-0fab4191669a")
+	)
+	(wire
+		(pts
+			(xy 118.11 25.4) (xy 124.46 25.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f0709a28-e577-4a8d-bd87-93aa338b7044")
+	)
+	(wire
+		(pts
+			(xy 90.17 132.08) (xy 118.11 132.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f2d62080-5f78-4f6f-ad9c-e4e7c99a5c6f")
+	)
+	(wire
+		(pts
+			(xy 93.98 36.83) (xy 101.6 36.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f7b43fdd-0c20-4d4a-b8f7-67b14ac83ffd")
+	)
+	(wire
+		(pts
+			(xy 99.06 30.48) (xy 106.68 30.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fa811467-0e9a-48e3-ba1f-46f3a46cc7f6")
+	)
+	(wire
+		(pts
+			(xy 177.8 129.54) (xy 177.8 130.81)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fb616805-3951-4e17-b9cf-2cf47954e39a")
+	)
+	(wire
+		(pts
+			(xy 109.22 104.14) (xy 111.76 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fd8ddc2e-0e7a-4000-8ba7-0f57dd328295")
+	)
+	(wire
+		(pts
+			(xy 114.3 101.6) (xy 118.11 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ff9d25db-4305-4c8f-9a2f-dd5f35b3c5f5")
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 262.89 144.78 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "11e59e3f-663c-4d90-8a02-419e5f35fcaa")
+		(property "Reference" "H1"
+			(at 265.43 143.51 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole"
+			(at 265.43 146.05 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_DIN965_Pad_TopBottom"
+			(at 262.89 144.78 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 262.89 144.78 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 262.89 144.78 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(instances
+			(project "Stupid-stepper"
+				(path "/600f91f8-406e-472f-a628-adbd851a7d8a"
+					(reference "H1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Generic:Conn_01x02")
+		(at 104.14 101.6 0)
+		(mirror y)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "28ad6e42-5a08-4afd-8c5c-2d07dc10c43c")
+		(property "Reference" "J13"
+			(at 98.552 102.87 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "Conn_01x02"
+			(at 105.4099 106.68 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical"
+			(at 104.14 101.6 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 104.14 101.6 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 104.14 101.6 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "c71a6126-b731-40b9-9b33-3ee63be6d734")
+		)
+		(pin "2"
+			(uuid "87678d6f-94cb-4808-b9a0-9935c532e273")
+		)
+		(instances
+			(project "Stupid-stepper"
+				(path "/600f91f8-406e-472f-a628-adbd851a7d8a"
+					(reference "J13")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 270.51 144.78 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5fb1104d-5e9d-4aeb-a1d2-190524897545")
+		(property "Reference" "H2"
+			(at 273.05 143.51 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole"
+			(at 273.05 146.05 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_DIN965_Pad_TopBottom"
+			(at 270.51 144.78 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 270.51 144.78 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 270.51 144.78 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(instances
+			(project "Stupid-stepper"
+				(path "/600f91f8-406e-472f-a628-adbd851a7d8a"
+					(reference "H2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Generic:Conn_01x04")
+		(at 190.5 130.81 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7b3d8509-8cba-462f-87cf-48534ffbdde8")
+		(property "Reference" "J10"
+			(at 193.04 130.8099 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Motor"
+			(at 193.04 133.3499 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Connector_JST:JST_PH_B4B-PH-K_1x04_P2.00mm_Vertical"
+			(at 190.5 130.81 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 190.5 130.81 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 190.5 130.81 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "042da0c7-14dd-4ddd-8d3b-2fbdb5df312a")
+		)
+		(pin "1"
+			(uuid "d517839b-4e39-498a-bb5d-9e591a7140d5")
+		)
+		(pin "3"
+			(uuid "d72ff99e-c7ed-4a49-9b86-d8be00b22bc3")
+		)
+		(pin "4"
+			(uuid "49a3056d-0624-4923-a101-8589bf544927")
+		)
+		(instances
+			(project "Stupid-stepper"
+				(path "/600f91f8-406e-472f-a628-adbd851a7d8a"
+					(reference "J10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 262.89 149.86 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8bb9aec4-8738-4381-b66a-48b5a1a059d1")
+		(property "Reference" "H3"
+			(at 265.43 148.59 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole"
+			(at 265.43 151.13 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_DIN965_Pad_TopBottom"
+			(at 262.89 149.86 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 262.89 149.86 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 262.89 149.86 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(instances
+			(project "Stupid-stepper"
+				(path "/600f91f8-406e-472f-a628-adbd851a7d8a"
+					(reference "H3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(sheet
+		(at 118.11 58.42)
+		(size 26.67 22.86)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "07da8543-d1b5-47d3-b334-a10997200dd6")
+		(property "Sheetname" "Voltage_Sensor"
+			(at 118.11 57.7084 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Voltage_Sensor.kicad_sch"
+			(at 118.11 81.8646 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "3v3" input
+			(at 134.62 58.42 90)
+			(uuid "1d97024a-29f5-440d-8c31-a34355e2a288")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "VBUS" input
+			(at 140.97 58.42 90)
+			(uuid "2703a97f-87a4-4349-9b93-b54e43e785a7")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "VBUS_SENS" output
+			(at 118.11 74.93 180)
+			(uuid "c380629e-66eb-46dc-85c4-e93c9c9fe01e")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "Stupid-stepper"
+				(path "/600f91f8-406e-472f-a628-adbd851a7d8a"
+					(page "10")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 118.11 166.37)
+		(size 49.53 21.59)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "3a37b756-def3-470a-a68d-3a274e5d9ae0")
+		(property "Sheetname" "AS5600"
+			(at 118.11 165.6584 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "AS5600.kicad_sch"
+			(at 118.11 188.5446 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "3v3" input
+			(at 167.64 170.18 0)
+			(uuid "5edb78ff-f680-4d51-b9b8-5f4d787fbb35")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "SCL_AS5600" bidirectional
+			(at 118.11 180.34 180)
+			(uuid "f4dd2f9d-aac4-4f00-b1b2-8673da7afb90")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "SDA_AS5600" bidirectional
+			(at 118.11 173.99 180)
+			(uuid "feb82a45-2741-4207-89dd-d87cb6d0055a")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "Stupid-stepper"
+				(path "/600f91f8-406e-472f-a628-adbd851a7d8a"
+					(page "9")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 118.11 87.63)
+		(size 26.67 19.05)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "52e6f30e-148d-45bc-a032-c46af5eaeba6")
+		(property "Sheetname" "VCO_Step_Generator"
+			(at 118.11 86.9184 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "VCO_Step_Generator.kicad_sch"
+			(at 118.11 107.2646 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "3v3" input
+			(at 144.78 92.71 0)
+			(uuid "affb028c-8b3f-4813-8b96-6b70ca44117e")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "PWM_IN" input
+			(at 118.11 92.71 180)
+			(uuid "287ea6cb-38b9-408c-9461-89e3420d4fd4")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "STEP_CD4046" output
+			(at 118.11 101.6 180)
+			(uuid "dc9b7a6e-241f-4421-8da7-f6c8727b2abf")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "Stupid-stepper"
+				(path "/600f91f8-406e-472f-a628-adbd851a7d8a"
+					(page "6")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 24.13 58.42)
+		(size 66.04 129.54)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "73e0976e-b11a-4dfd-97de-ada050bdf5ad")
+		(property "Sheetname" "MCU"
+			(at 24.13 57.7084 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "MCU.kicad_sch"
+			(at 24.13 188.5446 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "3v3" input
+			(at 90.17 60.96 0)
+			(uuid "5986fbf8-7983-4625-a01b-fe076bf3c460")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "SCL_INA219" bidirectional
+			(at 73.66 58.42 90)
+			(uuid "67f0a4c5-a997-4a89-8ce7-09853a6cdcde")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "SDA_INA219" bidirectional
+			(at 77.47 58.42 90)
+			(uuid "d90942b7-e04d-40c9-a9c7-674e39d9ea4a")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "VBUS_SENS" input
+			(at 90.17 74.93 0)
+			(uuid "2dc42f9d-f2bd-472a-a55b-2661505499ae")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "DIR_A4988" output
+			(at 90.17 120.65 0)
+			(uuid "639540a0-e4f0-458e-be10-73f452ee36b0")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "EN_A4988" output
+			(at 90.17 132.08 0)
+			(uuid "545e2b54-1577-4bd2-9c5b-77e995b84e6e")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "MS1_A4988" output
+			(at 90.17 139.7 0)
+			(uuid "9e6a5b65-94d8-44f7-a3c4-e2be6974cea9")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "MS2_A4988" output
+			(at 90.17 143.51 0)
+			(uuid "bd3e78d9-21ac-427e-9dd6-9d21d27eae8f")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "MS3_A4988" output
+			(at 90.17 147.32 0)
+			(uuid "b79a27f5-13cc-4b62-844e-49222d623de4")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "RST_A4988" output
+			(at 90.17 128.27 0)
+			(uuid "d12a5608-33de-4de3-b20e-94c03cb36b76")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "PWM_MCU" output
+			(at 90.17 92.71 0)
+			(uuid "a7040baf-2820-4eec-8213-8cb2a4cce8d7")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "SENSE1" input
+			(at 90.17 153.67 0)
+			(uuid "705b0d96-fc03-4fe1-8750-5e6401f55f68")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "SENSE2" input
+			(at 90.17 157.48 0)
+			(uuid "0c74f526-8b38-453e-a697-e5dc70d5caef")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "SCL_AS5600" bidirectional
+			(at 90.17 180.34 0)
+			(uuid "c9354d46-68b0-4557-9f76-e5d7baad6392")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "SDA_AS5600" bidirectional
+			(at 90.17 173.99 0)
+			(uuid "0f1afa28-b198-40b6-bbc8-e8085a2dd554")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "Stupid-stepper"
+				(path "/600f91f8-406e-472f-a628-adbd851a7d8a"
+					(page "8")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 124.46 22.86)
+		(size 26.67 20.32)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "7adc3685-689c-4c34-9c85-581862063537")
+		(property "Sheetname" "Power_3v3"
+			(at 124.46 22.1484 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Power_3v3.kicad_sch"
+			(at 124.46 43.7646 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "3v3" output
+			(at 124.46 30.48 180)
+			(uuid "0345c634-cb9f-4a33-bb5a-d711b2a9c7b5")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "VBUS" input
+			(at 124.46 25.4 180)
+			(uuid "241a1810-a642-45af-a3cb-cf00bcd4f39f")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "Stupid-stepper"
+				(path "/600f91f8-406e-472f-a628-adbd851a7d8a"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 25.4 22.86)
+		(size 25.4 20.32)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "86cdf0b9-a6e0-470b-abba-195c002863d9")
+		(property "Sheetname" "Power_USB_PD"
+			(at 25.4 22.1484 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Power_USB_PD.kicad_sch"
+			(at 25.4 43.7646 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "3v3" input
+			(at 50.8 30.48 0)
+			(uuid "97e1b761-8a20-4aaa-a551-c56d80a18d57")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "VBUS_PROT" output
+			(at 50.8 25.4 0)
+			(uuid "25323a06-bd79-4c09-8b2f-9c2887b44518")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "Stupid-stepper"
+				(path "/600f91f8-406e-472f-a628-adbd851a7d8a"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 66.04 22.86)
+		(size 27.94 20.32)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "88180ac3-c3e7-466d-a203-d4122ca92d56")
+		(property "Sheetname" "Current_Sense_Input"
+			(at 66.04 22.1484 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Current_Sense_Input.kicad_sch"
+			(at 66.04 43.7646 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "3v3" input
+			(at 93.98 30.48 0)
+			(uuid "b85f386d-55ec-4ed2-afe3-eb2868e9a4ca")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "SCL_INA219" bidirectional
+			(at 93.98 39.37 0)
+			(uuid "7b181e6d-39e5-4ccd-b39f-b084054dae8c")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "SDA_INA219" bidirectional
+			(at 93.98 36.83 0)
+			(uuid "af7560a5-e382-4497-918d-e6331474892c")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "VBUS" output
+			(at 93.98 25.4 0)
+			(uuid "d1b20c66-66d3-41e4-8355-d6526884503a")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "VBUS_PROT" input
+			(at 66.04 25.4 180)
+			(uuid "274e87b0-dba7-4a91-afb2-a40d08c29a17")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "Stupid-stepper"
+				(path "/600f91f8-406e-472f-a628-adbd851a7d8a"
+					(page "4")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 118.11 113.03)
+		(size 49.53 48.26)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "b306eb31-5830-4fe4-9d74-0301b9ac803b")
+		(property "Sheetname" "A4988"
+			(at 118.11 112.3184 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "A4988.kicad_sch"
+			(at 118.11 161.8746 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "3v3" input
+			(at 154.94 113.03 90)
+			(uuid "c4c9b062-66df-4da4-aeab-85c6362d0008")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "DIR_A4988" input
+			(at 118.11 120.65 180)
+			(uuid "b054bfa6-b6f2-415c-82cd-58c01f1eecf5")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "EN_A4988" input
+			(at 118.11 132.08 180)
+			(uuid "1f3d1135-ee10-4e1a-906c-f9729922c088")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "MS1_A4988" input
+			(at 118.11 139.7 180)
+			(uuid "a8c7a14c-a587-4518-8f16-4ae39a1779bf")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "MS2_A4988" input
+			(at 118.11 143.51 180)
+			(uuid "f963937d-2795-454a-a411-186a1741cb77")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "MS3_A4988" input
+			(at 118.11 147.32 180)
+			(uuid "726c9694-515d-450c-a70e-8a76e2af2b02")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "OUT1A" output
+			(at 167.64 129.54 0)
+			(uuid "f144138e-7f4c-4fcb-b26d-a7d20503bfe0")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "OUT1B" output
+			(at 167.64 125.73 0)
+			(uuid "0428e8d2-e871-4071-b2a8-6accd65ce24d")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "OUT2A" output
+			(at 167.64 134.62 0)
+			(uuid "bf75ebec-844d-45b0-81a7-125992bf0b58")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "OUT2B" output
+			(at 167.64 138.43 0)
+			(uuid "ea71e01d-253c-48d7-98cd-849557f3aa53")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "RST_A4988" input
+			(at 118.11 128.27 180)
+			(uuid "9c9c2933-ac06-4858-a1fe-f3e74482c8a5")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "STEP_A4988" input
+			(at 118.11 116.84 180)
+			(uuid "fd0a822a-d222-4e52-a269-d8a9e8a249f8")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "VBUS" input
+			(at 161.29 113.03 90)
+			(uuid "aaffaa5e-e24b-40c7-bb9b-e7fbcc1edc6b")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "SENSE1" output
+			(at 118.11 153.67 180)
+			(uuid "dbe5253e-fcb8-45f2-b734-fb3b6cd3fd56")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "SENSE2" output
+			(at 118.11 157.48 180)
+			(uuid "d40b2c68-123a-472f-800d-6975af112269")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "Stupid-stepper"
+				(path "/600f91f8-406e-472f-a628-adbd851a7d8a"
+					(page "5")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+	(embedded_fonts no)
+)
